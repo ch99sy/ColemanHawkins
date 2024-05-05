@@ -1,0 +1,72 @@
+img {max-height: 500px;
+    min-height: 500px;
+    display: flex;
+    margin: auto;
+align-items: center;}
+
+h1 {font-size: 50px;}
+
+h2 {font-size: 36px;}
+
+p {font-size: 24px;}
+
+a {color: darkslateblue;}
+
+a:hover {text-decoration: none;}
+
+a:active {opacity: 0.5;
+text-decoration: none;}
+
+p, h2, h1 {text-align: center;
+color:aliceblue;}
+
+body {background-color: #335279;
+margin: 0;
+padding: 0;}
+
+.first, .second, .third, .fourth {border: solid 1px blanchedalmond;}
+  
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: -200px; /* Initially hide the sidebar */
+    background-color: #333;
+    padding-top: 20px;
+    transition: left 0.3s ease; /* Add transition for left property */
+}
+
+video {margin: auto;}
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  button {color: white;
+background-color: black;}
+
+
+.toggle-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999; /* Ensure the button is above other elements */
+  }
+
+  .sidebar.visible {
+    left: 0; /* Show the sidebar when .visible class is added */
+}
+
+.content.visible {
+    margin-left: 200px; /* Adjust this to the width of your sidebar */
+}
