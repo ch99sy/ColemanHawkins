@@ -1,8 +1,20 @@
-img {max-height: 500px;
-    min-height: 500px;
-    display: flex;
-    margin: auto;
-align-items: center;}
+.container {
+  max-width: 100%; /* Ensures the container doesn't exceed the viewport width */
+  width: auto; /* Allows the container to shrink to fit its content */
+  margin: 0 auto; /* Centers the container horizontally */
+}
+
+img {
+  max-width: 100%; /* Ensures the image doesn't exceed the container width */
+  height: auto; /* Allows the image to scale proportionally with width */
+  flex-shrink: 2;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 600px; /* Limits the container's maximum width to 600px */
+  }
+}
 
 h1 {font-size: 50px;}
 
@@ -10,7 +22,7 @@ h2 {font-size: 36px;}
 
 p {font-size: 24px;}
 
-a {color: darkslateblue;}
+a {color: lightgrey;}
 
 a:hover {text-decoration: none;}
 
@@ -25,6 +37,8 @@ margin: 0;
 padding: 0;}
 
 .first, .second, .third, .fourth {border: solid 1px blanchedalmond;}
+
+.first {max-width: 100%;}
   
 .sidebar {
     height: 100%;
