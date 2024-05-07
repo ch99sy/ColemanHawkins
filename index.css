@@ -88,6 +88,6 @@ background-color: black;}
 .iframe-container {
   display: flex;
   justify-content: center;
-    max-width: 100%; /* Ensures the container doesn't exceed the viewport width */
+  max-width: 100%; /* Ensures the container doesn't exceed the viewport width */
   width: auto; /* Allows the container to shrink to fit its content */
 }
