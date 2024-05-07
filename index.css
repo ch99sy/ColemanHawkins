@@ -84,3 +84,8 @@ background-color: black;}
 .content.visible {
     margin-left: 200px; /* Adjust this to the width of your sidebar */
 }
+
+.iframe-container {
+  display: flex;
+  justify-content: center;
+}
