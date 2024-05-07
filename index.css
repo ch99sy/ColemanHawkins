@@ -10,7 +10,7 @@ img {
   flex-shrink: 2;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 60px) {
   .container {
     max-width: 600px; /* Limits the container's maximum width to 600px */
   }
@@ -88,4 +88,6 @@ background-color: black;}
 .iframe-container {
   display: flex;
   justify-content: center;
+    max-width: 100%; /* Ensures the container doesn't exceed the viewport width */
+  width: auto; /* Allows the container to shrink to fit its content */
 }
