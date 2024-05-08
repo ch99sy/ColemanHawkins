@@ -100,8 +100,11 @@ background-color: black;}
   width: auto; /* Allows the container to shrink to fit its content */
   
 }
+footer {font-size: 16px;
+       text-align: left;}
 
 iframe { border: solid 1px white; margin: 5px;}
 
 h2, h4, p, h1 {font-family: 'DM Serif Display', didot, serif;
 font-weight: 300;}
+
