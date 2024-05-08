@@ -8,6 +8,8 @@ img {
   max-width: 100%; /* Ensures the image doesn't exceed the container width */
   height: auto; /* Allows the image to scale proportionally with width */
   flex-shrink: 2;
+  margin-bottom: 5px;
+  border: solid 1px white;
 }
 
 @media (min-width: 60px) {
@@ -15,6 +17,12 @@ img {
     max-width: 600px; /* Limits the container's maximum width to 600px */
   }
 }
+
+
+body {background-image: url(./Pictures/Screenshot\ \(2\)-fotor-20240508221657.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:scroll;}
 
 h1 {font-size: 50px;}
 
@@ -36,7 +44,7 @@ body {background-color: #335279;
 margin: 0;
 padding: 0;}
 
-.first, .second, .third, .fourth {border: solid 1px blanchedalmond;}
+.first, .second, .third, .fourth, #fifth {border: solid 1px blanchedalmond;}
 
 .first {max-width: 100%;}
   
@@ -90,4 +98,10 @@ background-color: black;}
   justify-content: center;
   max-width: 100%; /* Ensures the container doesn't exceed the viewport width */
   width: auto; /* Allows the container to shrink to fit its content */
+  
 }
+
+iframe { border: solid 1px white; margin: 5px;}
+
+h2, h4, p, h1 {font-family: 'DM Serif Display', didot, serif;
+font-weight: 300;}
